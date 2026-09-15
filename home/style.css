@@ -99,7 +99,7 @@ h1 {
 /* -----------PRODUTOS----------- */
 
 .home_produtos {
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .link_produtos a {
@@ -168,24 +168,7 @@ h1 {
     height: 2px;
 }
 
-.img_categoria1 span {
-    font-family: "Hanken Grotesk", sans-serif;
-    font-weight: 500;
 
-
-}
-
-.container_categorias {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-
-}
-
-.container_categorias a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
 .img_categoria1 {
     background-image: url(../IMG/bolo\ casamento.png);
@@ -198,21 +181,44 @@ h1 {
     padding: 50px 20px;
 }
 
+.img_categoria1 span {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 500;
+
+
+}
+
+
+.container_categorias {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+.container_categorias a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
 .home_produtos h3 {
     font-family: "Libre Caslon Text", serif;
     font-weight: 400;
 
 }
-.col_categorias{
+
+.img_categoria1 h3 {
+    font-size: 32px;
+}
+
+
+.col_categorias {
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.img_categoria1 h3 {
-    font-size: 32px;
 }
 
 .img_categoria2 {
@@ -226,7 +232,7 @@ h1 {
 }
 
 .img_categoria2,
-.img_categoria3{
+.img_categoria3 {
 
     /* width: 25%; */
     width: 352px;
@@ -235,4 +241,35 @@ h1 {
     align-items: flex-end;
     padding: 20px 10px;
     font-size: 24px;
+}
+
+/* ----------------------------------------FOOTER---------------------------------------- */
+footer {
+    background-color: #FFBDCC;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.CONTAINER_FOOTER {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.CONTAINER_FOOTER span,
+.nav_footer a {
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.nav_footer a {
+    text-decoration: none;
+    color: #747878;
 }
