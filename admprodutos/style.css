@@ -348,9 +348,10 @@ display: none;
 
 
 }
-.CONTAINER_FOOTER button{
 
-    
+.CONTAINER_FOOTER span{
+display: none;
+   
 
 
 }
@@ -436,8 +437,9 @@ color: #444444;
 footer button{
     display: block;
 }
-.nav_footer{
-    display: none;
+.CONTAINER_FOOTER img{
+width: 110px;
+
 
 }
 
